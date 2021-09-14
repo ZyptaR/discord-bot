@@ -19,5 +19,5 @@ bot.add_cog(image_cog(bot))
 bot.add_cog(music_cog(bot))
 
 #start the bot with our token
-bot.run(os.getenv("ODg3MzkyNjI3ODQwOTEzNDM4.YUDeyQ.NSNBQQkwnd-wsp-QOKQrccKUzBE"))
+bot.run(os.getenv("."))
 
