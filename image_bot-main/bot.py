@@ -12,7 +12,7 @@ Bot = commands.Bot(command_prefix='/')
 Bot.add_cog(image_cog(Bot))
 Bot.add_cog(music_cog(Bot))
 
-token = "ODg3MzkyNjI3ODQwOTEzNDM4.YUDeyQ.NSNBQQkwnd-wsp-QOKQrccKUzBE"
+token = "token"
 with open("token.txt") as file:
     token = file.read()
 Bot.run(token)
